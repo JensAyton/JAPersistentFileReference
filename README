@@ -1,0 +1,10 @@
+JAPersistentFileReference
+
+Store file references in a property list format. For file URLs, uses bookmark
+data (when available) and aliases to track files even if they're moved or
+renamed.
+
+This is only really useful for supporting systems older than Mac OS X 10.6.
+For new development, don't do that. It's silly.
+
+MIT license.
